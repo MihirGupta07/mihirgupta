@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 const about = () => {
-  return <div>about</div>;
+  return <section id="portfolio">about</section>;
 };
 
 export default about;
