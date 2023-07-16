@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react";
 export const ContentControlContext = createContext();
 
 export const ContentControlContextProvider = ({ children }) => {
-    const [currentContent, setcurrentContent] = useState('Byjus');
+    const [currentContent, setcurrentContent] = useState('');
     const [selectedTab, setSelectedTab] = useState(0)
     return (
         <ContentControlContext.Provider value={{ currentContent, setcurrentContent, selectedTab, setSelectedTab }}>
