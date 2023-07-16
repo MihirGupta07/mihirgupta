@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { DescriptionGradientSnippet, aboutMe, buttonGradientSnippet, experience, projects } from '../util/constants'
+import { DescriptionGradientSnippet, aboutMe, experience, projects } from '../util/constants'
 import { useThemeRendererContext } from '../contexts/ThemeContext'
 import { useContentControlContext } from '../contexts/ContentControlContext'
 import { Typography } from '@mui/material'
@@ -8,7 +8,7 @@ import MyButton from './MyButton'
 
 const LeftCard = () => {
     const { colorNumber } = useThemeRendererContext()
-    const { currentContent, setCurrentContent, selectedTab } = useContentControlContext()
+    const { currentContent, selectedTab } = useContentControlContext()
 
     let result = selectedTab ? projects.find(item => item.name === currentContent) : experience.find(item => item.companyName === currentContent);
     const openLink = (linkURL) => {

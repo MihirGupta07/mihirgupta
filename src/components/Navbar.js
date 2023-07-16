@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { buttonGradientSnippet, experience, projects } from '../util/constants'
 import { useThemeRendererContext } from '../contexts/ThemeContext'
 import MyButton from './MyButton'

@@ -1,13 +1,13 @@
 import React from 'react'
 import './style.css'
-import { buttonGradientSnippet, gradientSnippet } from '../util/constants'
+import { buttonGradientSnippet } from '../util/constants'
 import { useThemeRendererContext } from '../contexts/ThemeContext'
 const MyButton = ({
     text = ' MyButton',
     onClick = () => { },
 
 }) => {
-    const { colorNumber, updateColorNumber } = useThemeRendererContext()
+    const { colorNumber } = useThemeRendererContext()
     return (
         <div>
             <button className={'myButton'} onClick={onClick} >

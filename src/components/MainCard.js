@@ -1,10 +1,9 @@
 import React from 'react'
-import MyButton from './MyButton'
 import { useThemeRendererContext } from '../contexts/ThemeContext'
-import { gradientSnippet, gradients } from '../util/constants'
+import { gradientSnippet } from '../util/constants'
 import Header from './Header'
 import LeftCard from './LeftCard'
-import { Grid } from '@mui/material'
+
 import Navbar from './Navbar'
 
 const MainCard = () => {

@@ -3,7 +3,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { IconButton } from '@mui/material';
-import { HeadingGradientSnippet, buttonGradientSnippet, githubURL, linkedInURL, myEmail } from '../util/constants';
+import { HeadingGradientSnippet, githubURL, linkedInURL, myEmail } from '../util/constants';
 import { useThemeRendererContext } from '../contexts/ThemeContext';
 const Header = () => {
     const { colorNumber, updateColorNumber } = useThemeRendererContext()
