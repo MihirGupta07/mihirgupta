@@ -21,7 +21,7 @@ export const projects = [
         name: "Am I Okay",
         description: `Web development and ML submission for Hoya- Hacks’22.
         Implemented using HTML CSS Flask Machine Learning on aKaggle
-        dataset and Google Maps API. An online disease predictor canalso
+        dataset and Google Maps API. An online disease predictor can also
         suggest medicines and nearby hospitals based on the three symptoms.`,
         links: [
             {
