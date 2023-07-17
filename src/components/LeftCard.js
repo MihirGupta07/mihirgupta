@@ -9,7 +9,7 @@ import MyButton from './MyButton'
 const LeftCard = () => {
     const { colorNumber } = useThemeRendererContext()
     const { currentContent, selectedTab } = useContentControlContext()
-
+    console.log({ currentContent });
     let result = selectedTab ? projects.find(item => item.name === currentContent) : experience.find(item => item.companyName === currentContent);
     const openLink = (linkURL) => {
         window.open(
