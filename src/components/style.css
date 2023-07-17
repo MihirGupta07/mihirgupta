@@ -39,6 +39,8 @@
     margin: 5px;
     color: #ccc;
     transition: 0.2s ease-in-out;;
+    font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
 }
 .myButton:hover {
     padding-left: 8px;
@@ -117,6 +119,8 @@
     padding-left: 15px;
 }
 .navHeaderButton{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
     background-color: #001C30;
     border: none;
     width: 100px;
@@ -150,6 +154,7 @@
    
 }
 .tabOptions{
+  
     height: 200px;
     padding-left: 50px;
     display: none;
