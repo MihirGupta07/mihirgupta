@@ -9,15 +9,15 @@
   user-select: none; /* Standard syntax */
 }
 
-.border{
-  padding: 15px;
-  height: 60vh;
-  width: 80vw;
-  border-radius: 8px;
+.border {
+  padding: 0.9375rem; /* 15px */
+  height: 80vh;
+  width: 90vw;
+  border-radius: 0.5rem; /* 8px */
 }
-.innerbox{
-  border-radius: 8px;
-  height: 60vh;
-  width: 80vw;
-  
+
+.innerbox {
+  border-radius: 0.5rem; /* 8px */
+  height: 80vh;
+  width: 90vw;
 }
